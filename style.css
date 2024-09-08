@@ -1,0 +1,99 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f4f8;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 20px;
+    color: #2b2d42;
+}
+
+form {
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+}
+
+fieldset {
+    border: 2px solid #8d99ae;
+    border-radius: 10px;
+    padding: 15px;
+    margin-bottom: 20px;
+}
+
+legend {
+    font-weight: bold;
+    color: #2b2d42;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+    color: #2b2d42;
+}
+
+input, textarea {
+    width: calc(100% - 24px);
+    padding: 10px;
+    margin-top: 8px;
+    border: 1px solid #8d99ae;
+    border-radius: 6px;
+    box-sizing: border-box;
+}
+
+button {
+    display: block;
+    width: 200px;
+    padding: 12px;
+    background-color: #2b2d42;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 18px;
+    margin-top: 15px;
+    text-align: center;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #ef233c;
+}
+
+#resumePreview {
+    max-width: 800px;
+    margin: 30px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+}
+
+#generatedResume {
+    white-space: pre-wrap;
+}
+
+[contenteditable="true"] {
+    border: 1px dashed #2b2d42;
+    padding: 5px;
+}
+
+[contenteditable="true"]:hover {
+    background-color: #f0f4f8;
+}
+
+.button-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.button-container button {
+    width: 48%;
+}
